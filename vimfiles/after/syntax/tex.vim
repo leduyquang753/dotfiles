@@ -1,0 +1,1 @@
+syn region texZone keepend matchgroup=NONE start="\\begin{minted}{\w\+}" end="\\end{minted}"

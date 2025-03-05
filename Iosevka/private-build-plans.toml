@@ -1,0 +1,225 @@
+[buildPlans.IosevkaLEDUQU]      # <IosevkaLEDUQU> is your plan name
+family = "Iosevka LEDUQU"        # Font menu family name
+spacing = "normal"               # Optional; Values: `normal`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                  # Optional; Values: `sans` or `slab`
+
+webfont-formats = ["ttf"]
+
+###################################################################################################
+# Configure variants
+
+# Optional; Whether to inherit a `ss##` variant
+[buildPlans.IosevkaLEDUQU.variants]
+inherits = "ss20"
+
+# Optional; Configure single character's variant
+[buildPlans.IosevkaLEDUQU.variants.design]
+capital-g = 'toothless-rounded-serifless-hooked'
+capital-i = 'short-serifed'
+capital-j = 'serifless'
+capital-m = 'flat-bottom-serifless'
+capital-q = 'crossing'
+capital-w = 'straight-flat-top-serifless'
+f = 'serifless-crossbar-at-x-height'
+j = 'serifless'
+w = 'straight-flat-top-serifless'
+y = 'straight-turn-serifless'
+four = 'closed-serifless'
+six = 'closed-contour'
+seven = 'bend-serifless'
+nine = 'closed-contour'
+number-sign = 'slanted'
+at = 'fourfold'
+percent = 'rings-continuous-slash'
+lig-equal-chain = 'without-notch'
+
+# Optional; Configure single character's variant for Upright and Oblique; Overrides [design]
+[buildPlans.IosevkaLEDUQU.variants.upright]
+
+# Optional; Configure single character's variant for Italic only; Overrides [design]
+[buildPlans.IosevkaLEDUQU.variants.italic]
+
+# End variant section
+###################################################################################################
+
+###################################################################################################
+# Configure ligations
+
+[buildPlans.IosevkaLEDUQU.ligations]
+enables = [
+	"arrow-l",
+	"arrow-r",
+	"arrow-lr",
+	"eqeq",
+	"lteq",
+	"gteq",
+	"exeq"
+]
+
+# End ligation section
+###################################################################################################
+
+
+###################################################################################################
+# Override default building weights
+# When buildPlans.<plan name>.weights is absent, all weights would built and mapped to
+# default values.
+# IMPORTANT : Currently "menu" and "css" property only support numbers between 0 and 1000.
+#             and "shape" properly only supports number between 100 and 900 (inclusive).
+#             If you decide to use custom weights you have to define all the weights you
+#             plan to use otherwise they will not be built.
+[buildPlans.IosevkaLEDUQU.weights.regular]
+shape = 400  # Weight for glyph shapes.
+menu  = 400  # Weight for the font's names.
+css   = 400  # Weight for webfont CSS.
+
+[buildPlans.IosevkaLEDUQU.weights.light]
+shape = 300
+menu  = 300
+css   = 300
+
+[buildPlans.IosevkaLEDUQU.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.IosevkaLEDUQU.weights.heavy]
+shape = 900
+menu  = 900
+css   = 900
+
+# End weight section
+###################################################################################################
+
+###################################################################################################
+# Override default building slope sets
+# Format: <upright|italic|oblique> = <"normal"|"italic"|"oblique">
+# When this section is absent, all slopes would be built.
+
+[buildPlans.IosevkaLEDUQU.slopes.upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.IosevkaLEDUQU.slopes.italic]
+angle = 9.4
+shape = "oblique"
+menu  = "oblique"
+css   = "oblique"
+
+# End slope section
+###################################################################################################
+
+[buildPlans.IosevkaLEDUQUTerm]      # <iosevka-leduqu> is your plan name
+family = "Iosevka LEDUQU term"        # Font menu family name
+spacing = "term"               # Optional; Values: `normal`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                  # Optional; Values: `sans` or `slab`
+
+webfont-formats = ["ttf"]
+
+###################################################################################################
+# Configure variants
+
+# Optional; Whether to inherit a `ss##` variant
+[buildPlans.IosevkaLEDUQUTerm.variants]
+inherits = "ss20"
+
+# Optional; Configure single character's variant
+[buildPlans.IosevkaLEDUQUTerm.variants.design]
+capital-g = 'toothless-rounded-serifless-hooked'
+capital-i = 'short-serifed'
+capital-j = 'serifless'
+capital-m = 'flat-bottom-serifless'
+capital-q = 'crossing'
+capital-w = 'straight-flat-top-serifless'
+f = 'serifless-crossbar-at-x-height'
+j = 'serifless'
+w = 'straight-flat-top-serifless'
+y = 'straight-turn-serifless'
+four = 'closed-serifless'
+six = 'closed-contour'
+seven = 'bend-serifless'
+nine = 'closed-contour'
+number-sign = 'slanted'
+at = 'fourfold'
+percent = 'rings-continuous-slash'
+lig-equal-chain = 'without-notch'
+
+# Optional; Configure single character's variant for Upright and Oblique; Overrides [design]
+[buildPlans.IosevkaLEDUQUTerm.variants.upright]
+
+# Optional; Configure single character's variant for Italic only; Overrides [design]
+[buildPlans.IosevkaLEDUQUTerm.variants.italic]
+
+# End variant section
+###################################################################################################
+
+###################################################################################################
+# Configure ligations
+
+[buildPlans.IosevkaLEDUQUTerm.ligations]
+enables = [
+	"arrow-l",
+	"arrow-r",
+	"arrow-lr",
+	"eqeq",
+	"lteq",
+	"gteq",
+	"exeq"
+]
+
+# End ligation section
+###################################################################################################
+
+
+###################################################################################################
+# Override default building weights
+# When buildPlans.<plan name>.weights is absent, all weights would built and mapped to
+# default values.
+# IMPORTANT : Currently "menu" and "css" property only support numbers between 0 and 1000.
+#             and "shape" properly only supports number between 100 and 900 (inclusive).
+#             If you decide to use custom weights you have to define all the weights you
+#             plan to use otherwise they will not be built.
+[buildPlans.IosevkaLEDUQUTerm.weights.regular]
+shape = 400  # Weight for glyph shapes.
+menu  = 400  # Weight for the font's names.
+css   = 400  # Weight for webfont CSS.
+
+[buildPlans.IosevkaLEDUQUTerm.weights.light]
+shape = 300
+menu  = 300
+css   = 300
+
+[buildPlans.IosevkaLEDUQUTerm.weights.bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.IosevkaLEDUQUTerm.weights.heavy]
+shape = 900
+menu  = 900
+css   = 900
+
+# End weight section
+###################################################################################################
+
+###################################################################################################
+# Override default building slope sets
+# Format: <upright|italic|oblique> = <"normal"|"italic"|"oblique">
+# When this section is absent, all slopes would be built.
+
+[buildPlans.IosevkaLEDUQUTerm.slopes.upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.IosevkaLEDUQUTerm.slopes.italic]
+angle = 9.4
+shape = "oblique"
+menu  = "oblique"
+css   = "oblique"
+
+# End slope section
+###################################################################################################

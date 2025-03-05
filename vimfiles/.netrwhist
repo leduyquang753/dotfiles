@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='D:/Code/Olympia/main'
+let g:netrw_dirhist_0='D:/Code/RmlUI/Tests/Source/Benchmarks'
+let g:netrw_dirhist_9='D:\Code\RmlUI'
+let g:netrw_dirhist_8='D:\Code\RmlUI\Tests\Source\Benchmarks'
+let g:netrw_dirhist_7='D:/Code/Java test/app'
+let g:netrw_dirhist_6='D:/Code/Java test/app/src'
+let g:netrw_dirhist_5='D:/Code/Java test/app/src/main'
+let g:netrw_dirhist_4='D:/Code/Java test/app/src/main/java'
+let g:netrw_dirhist_3='D:/Code/Java test/app/src/main/java/vn'
+let g:netrw_dirhist_2='D:/Code/Java test/app/src/main/java/vn/name'
