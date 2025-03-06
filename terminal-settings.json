@@ -1,0 +1,136 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowTabs": true,
+    "confirmCloseAllTabs": true,
+    "copyFormatting": "html",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "disableAnimations": true,
+    "initialCols": 128,
+    "initialRows": 32,
+    "keybindings": 
+    [
+        {
+            "id": null,
+            "keys": "ctrl+comma"
+        }
+    ],
+    "largePasteWarning": false,
+    "multiLinePasteWarning": false,
+    "newTabMenu":
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "never",
+            "antialiasingMode": "cleartype",
+            "background": "#000000",
+            "bellSound": 
+            [
+                "C:\\Windows\\Media\\Windows ding.wav"
+            ],
+            "closeOnExit": "always",
+            "colorScheme": "Custom",
+            "font": 
+            {
+                "face": "Iosevka LEDUQU term",
+                "size": 9
+            },
+            "foreground": "#FFFFFF",
+            "historySize": 65536,
+            "intenseTextStyle": "bold",
+            "padding": "8, 8, 0, 8"
+        },
+        "list": 
+        [
+            {
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo -NoExit",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell",
+                "startingDirectory": "T:\\",
+                "tabColor": "#B4CBF4",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "icon": "C:\\Users\\Quang\\Pictures\\Arch icon.png",
+                "name": "Arch",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true,
+                "tabColor": "#96DCFF",
+                "tabTitle": "Arch"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command prompt",
+                "startingDirectory": "T:\\"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{91a4d9cf-ae64-5008-8480-75617af4fed4}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{8235dd06-d99f-595a-ae1d-167fe07574af}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#282C34",
+            "blue": "#61AFEF",
+            "brightBlack": "#666666",
+            "brightBlue": "#92CEFF",
+            "brightCyan": "#70EEFE",
+            "brightGreen": "#ABFD70",
+            "brightPurple": "#E9A2FF",
+            "brightRed": "#FD8D95",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FEDA98",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#DCDFE4",
+            "green": "#98C379",
+            "name": "Custom",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#666666",
+            "white": "#DCDFE4",
+            "yellow": "#E5C07B"
+        }
+    ],
+    "tabSwitcherMode": "disabled",
+    "theme": "custom",
+    "themes": [
+		{
+			"name": "custom",
+			"tab": {
+				"showCloseButton": "never"
+			}
+		}
+	],
+    "useAcrylicInTabRow": true
+}
